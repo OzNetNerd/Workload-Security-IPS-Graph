@@ -25,4 +25,15 @@ docker run -d -p 3000:3000 --name grafana grafana/grafana
 
 ![](graph_settings.png)
 
-6. In **"Display"** --> **"Stacking and null value"**, set **"Null value"** to **"connected"** 
+6. In **"Display"** --> **"Stacking and null value"**, set **"Null value"** to **"connected"**
+
+## Additional information
+
+For a completely serverless solution, the script can be run as a scheduled Lambda and Grafana can be run in Fargate.
+
+![](serverless_design.png)
+
+# Contact
+
+* Blog: [oznetnerd.com](https://oznetnerd.com)
+* Email: will@oznetnerd.com
